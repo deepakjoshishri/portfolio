@@ -1,3 +1,8 @@
+body{
+    overflow-x: hidden;/*removed unneccesary horizontal scrolling*/
+}
+
+/*css properties to describe style of logo*/
 .logo {
     float: left;
     width: 120px;
@@ -5,7 +10,6 @@
     padding-top: 5px;
     border-radius: 50%;
 }
-
 
 .portfolio-name {
     font-size: 3rem;
@@ -28,6 +32,7 @@
 .line {
     background-color: #7d97ad;
     height: 2px;
+    width: 90%;/*to display only 90% width of the parent*/
 }
 
 
@@ -38,7 +43,12 @@
 
 .project-image {
     width: 100%;
-    height: 100%;
+    height: 80%;
+}
+
+article{
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 
@@ -47,6 +57,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
+    display: block;
 }
 
 
